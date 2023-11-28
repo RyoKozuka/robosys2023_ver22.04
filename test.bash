@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -XV
 # SPDX-FileCopyrightText: 2023 Ryo Kozuka
 # SPDX-License-Identifier: BSD-3-Clause
 
