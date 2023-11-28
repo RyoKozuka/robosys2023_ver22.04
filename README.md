@@ -1,6 +1,6 @@
 # robosys2023_ver22.04
 
-#plus コマンド
+# plus コマンド
 ![test](https://github.com/RyoKozuka/robosys2023_ver22.04/actions/workflows/test.yml/badge.svg)
 
 ## 必要なソフトウェア
