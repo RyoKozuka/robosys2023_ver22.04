@@ -11,3 +11,8 @@ for line in sys.stdin:
         ans += float(line)
 
 print(ans)
+if (ans % 2) == 0:
+    print("偶数")
+else:
+    print("奇数")
+
