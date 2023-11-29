@@ -10,8 +10,10 @@ ng () {
 res=0
 
 ###I/O TEST###
-out=$(seq 5 | ./plus | sed -e 's/[^0-9]//g')
-[ "${out}" = 15 ] || ng ${LINENO}
+out1=$(seq 5 | ./plus | sed -e 's/[^0-9]//g')
+out2=$(seq 5 | ./plus | sed -e 's/[0-9 :]//g
+[ "${out1}" = 15 ] || ng ${LINENO}
+[ "${out2}" = "奇数"] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
