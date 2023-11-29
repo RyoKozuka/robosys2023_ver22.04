@@ -3,6 +3,8 @@
 # plus コマンド
 ![test](https://github.com/RyoKozuka/robosys2023_ver22.04/actions/workflows/test.yml/badge.svg)
 
+ 標準入力で入力された数値の総和を出力するプログラム
+
 ## 必要なソフトウェア
 * Python
  * テスト済み:3.7~3.10
