@@ -3,7 +3,12 @@
 # plus コマンド
 ![test](https://github.com/RyoKozuka/robosys2023_ver22.04/actions/workflows/test.yml/badge.svg)
 
+<<<<<<< HEAD
  標準入力で入力された数値の総和を出力するプログラム
+=======
+標準入力で入力された数値の総和を出力するプログラム
+同時に奇数/偶数を判別して出力する
+>>>>>>> dev
 
 ## 必要なソフトウェア
 * Python
