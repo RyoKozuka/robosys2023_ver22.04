@@ -11,7 +11,7 @@ res=0
 
 ###I/O TEST###
 out=$(seq 5 | ./plus)
-[ "${ans}" = 15 ] || ng ${LINENO}
+[ "${out} | sed -e 's/[^0-9]//g'" = 15 ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
