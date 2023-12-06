@@ -12,6 +12,7 @@ res=0
 ###I/O TEST###
 out1=$(seq 5 | ./plus | sed -e 's/[^0-9]//g')
 [ "${out1}" = 15 ] || ng ${LINENO}
+["$c" = 2 ] || ng ${LINENO} #奇数偶数テスト
 
 [ "$res" = 0 ] && echo OK
 exit $res
