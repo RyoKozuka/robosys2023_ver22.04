@@ -14,7 +14,7 @@
 * Ubuntu22.04.2LTS
 
 ## 利用方法
-#### 1.本リポジトリを使用ディレクトリにクローン.
+#### 1.リポジトリをディレクトリにクローン.
 ```
 git clone git@github.com:RyoKozuka/robosys2023_ver22.04.git
 ```
